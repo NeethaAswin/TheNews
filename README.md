@@ -5,6 +5,9 @@ The application fetches a list of articles from TheGuardian API endpoint where I
 
 Launch the application and the screen will be presented with news feeds.
 
+**Screenshots**:
+
+
 **Key takeaways** :
 This app is developed with the latest Xcode 15 and dependency target - iOS 17 to support latest concurrency models and SwiftUI NavigationStack. It also supports async await feature. Developed using SwiftUI to render the data in the User Interface.
 Built using MVVM Architecture and Unit test cases for testability, scalability and maintainability
@@ -26,7 +29,8 @@ SwiftUI
 MVVM (Model-View-ViewModel) architecture
 Async - Await for API requests
 XCTest for unit testing
-Unit Tests :
+
+**Unit Tests :**
 In Xcode, go to the "Product" menu and choose "Test" or use the shortcut (Cmd+U). View the test results in the Xcode test navigator.
 
 **Note** :
