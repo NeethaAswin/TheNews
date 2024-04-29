@@ -18,8 +18,6 @@ struct ImageLoadableView: View {
                 Image(uiImage: image)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 100, height: 100)
-                    .clipped()
             } else {
                 ProgressView()
             }
