@@ -13,6 +13,8 @@ struct TheNewsListItemView: View {
         HStack {
             if let url = article.imageURL {
                 ImageLoadableView(imageUrl: url)
+                .frame(width: 100, height: 100)
+                .clipped()
             } else {
                 ProgressView()
             }
