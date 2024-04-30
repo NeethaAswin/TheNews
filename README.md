@@ -6,6 +6,7 @@ The application fetches a list of articles from TheGuardian API endpoint where I
 Launch the application and the screen will be presented with news feeds.
 
 **ScreenRecording**:
+
 ![TheNewsScreenRecording](https://github.com/NeethaAswin/TheNews/assets/42341774/77653f48-2744-45aa-b5e3-dc7a8c327e04)
 
 
