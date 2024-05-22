@@ -1,7 +1,7 @@
 # TheNews
 
 **Task** :
-The application fetches a list of articles from TheGuardian API endpoint where I can get the live data of news feeds. On selecting a news feed from the list, detail news will be presented to the user.
+The application fetches a list of articles from TheNews API endpoint where I can get the live data of news feeds. On selecting a news feed from the list, detail news will be presented to the user.
 
 Launch the application and the screen will be presented with news feeds.
 
@@ -18,6 +18,7 @@ SnapshotTesting is done using the swift-snapshot-testing package
 
 **Key Features** :
 List News feeds
+Pagination
 User-friendly interface with SwiftUI
 Select News to view the detail feed
 Clean and maintainable code architecture using MVVM
@@ -27,10 +28,11 @@ Supports pull to refresh
 Error handling
 
 **Technologies Used :**
-SwiftUI
+SwiftUI and Combine
 MVVM (Model-View-ViewModel) architecture
 Async - Await for API requests
 XCTest for unit testing
+
 
 **Unit Tests :**
 In Xcode, go to the "Product" menu and choose "Test" or use the shortcut (Cmd+U). View the test results in the Xcode test navigator.
